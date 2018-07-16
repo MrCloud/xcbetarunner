@@ -5,14 +5,14 @@
 **Debug & Test your app on iOS's beta device using stable Xcode version**
 
 <p align="center" >★★ <b>Star me to follow the project! </b> ★★<br>
-Created and maintaned by <b>Daniele Margutti</b> - <a href="http://www.danielemargutti.com">www.danielemargutti.com</a>
+Created and maintained by <b>Daniele Margutti</b> - <a href="http://www.danielemargutti.com">www.danielemargutti.com</a>
 </p>
 
 ## What's xcbetarunner?
 xcbetarunner is a really simple command line utility which allows you to deploy and test your application using stable XCode version inside a device where you have installed an iOS Beta or Pre-Release version.
 
 ## Usage
-There are three different commands you can use with `xbetarunner`:
+There are three different commands you can use with `xcbetarunner`:
 
 ### 1. List iOS DeviceSupport's SDK for an Xcode version
 
@@ -104,7 +104,14 @@ $ cd xcbetarunner
 $ make
 ```
 
-Now you can call it just by using `xcbetarunner` from your terminal, folloed by the required arguments.
+
+## Installation with [Mint](https://github.com/yonaskolb/mint)
+```
+$ mint install malcommac/xcbetarunner
+```
+
+
+Now you can call it just by using `xcbetarunner` from your terminal, followed by the required arguments.
 
 ## Questions or feedback?
 
